@@ -29,7 +29,7 @@ a {
 }
 
 .contenedor {
-  width: 90%;
+  width: 98%;
   max-width: 700px;
   margin: auto;
   height: 100%;
@@ -39,7 +39,7 @@ a {
 
 .tarjeta {
   margin: 40px 0;
-  width: 100%;
+  width: 120%;
   background: #fff;
   border-radius: 5px;
   overflow: hidden;
@@ -117,7 +117,7 @@ a {
   background: #fff;
   width: 100%;
   left: 100%;
-  padding: 20px 80px;
+  padding: 20px 50px;
   position: absolute;
 }
 /* Slider Flechas */
@@ -125,7 +125,7 @@ a {
 .slider_info .flecha-info {
   font-size: 35px;
   line-height: 35px;
-  color: #e6e6e6;
+  color: #cec8c8;
   position: absolute;
   top: 50%;
   z-index: 1000;
@@ -136,11 +136,11 @@ a {
 }
 
 .slider_info .flecha-info.anterior {
-  left: 20px;
+  left: 5px;
 }
 
 .slider_info .flecha-info.siguiente {
-  right: 20px;
+  right: 5px;
 }
 
 /* Estilos para los Slide de Info */
@@ -242,7 +242,7 @@ a {
   text-align: center;
   border-radius: 5px;
   padding-bottom: 6px;
-  padding: 5px;
+  padding: 7px;
 }
 
 #men a {
@@ -271,4 +271,15 @@ a {
   transform: translateY(-50%) translateX(-50%);
   z-index: -1;
   background-size: cover;
+}
+
+#sub {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .slider_info .informacion article .slide {
+    padding: 20px 30px;
+  }
 }
