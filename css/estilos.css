@@ -240,9 +240,9 @@ a {
   top: 1px;
   background: black;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 0 0 6px 6px;
   padding-bottom: 6px;
-  padding: 7px;
+  padding: 10px;
 }
 
 #men a {
@@ -281,5 +281,8 @@ a {
 @media (max-width: 768px) {
   .slider_info .informacion article .slide {
     padding: 20px 30px;
+  }
+  #men {
+    padding: 12px;
   }
 }
